@@ -5,7 +5,7 @@ RUN export TERM=dumb ; \
     apt-transport-https gnupg \
     curl locales \
     haproxy supervisor \
-    openjdk-8-jdk=8u181-b13-0ubuntu0.18.04.1 \
+    openjdk-11-jdk=11.0.6+10-1ubuntu1~18.04.1 \
     less vim unzip \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
 
